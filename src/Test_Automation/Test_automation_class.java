@@ -12,7 +12,7 @@ public class Test_automation_class {
 		driver.get("http://www.google.com");
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("//*[@title=\"Search\"]")).sendKeys("Save this code please");
+		driver.findElement(By.xpath("//*[@title=\"Search\"]")).sendKeys("Save this code please !!!!!!!!!!!!!!!!");
 		
 
 	}
